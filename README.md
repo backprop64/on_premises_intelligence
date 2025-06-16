@@ -34,7 +34,6 @@ conda create -n opi python=3.11 -y
 conda activate opi
 
 # 2. Install the Python packages
-# (Torch will be pulled in automatically; on Apple Silicon see the note below)
 pip install --upgrade pip wheel
 pip install -r requirements.txt
 
